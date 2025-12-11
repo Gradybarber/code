@@ -91,7 +91,7 @@ section img{
 @media (max-width: 768px){
 
     body{
-        display: block; /* Simpler stacking layout */
+        display: block; 
         background-size: cover;
     }
 
