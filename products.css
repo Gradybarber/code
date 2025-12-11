@@ -64,3 +64,39 @@ div{
 .bold{
     align-items: center;
 }
+@media (max-width: 768px) {
+
+  header{
+      flex-wrap: wrap;        /* allows logo + nav to move onto new lines */
+      height: auto;           /* no forced squeezing */
+      padding: 1rem;
+      justify-content: center;
+      text-align: center;
+  }
+
+  header img{
+      max-height: 80px;
+      width: auto;
+      margin-bottom: 0.5rem;
+  }
+  nav{
+      width: 100%;           
+      font-size: 1.6rem;      
+      margin-top: 0.5rem;
+  }
+  a{
+      padding: 0 1rem;      
+  }
+  body{
+      display: block;        
+  }
+  .productsleft,
+  div{
+      margin: 1.5rem;
+      padding: 1.5rem;
+  }
+  img{
+      max-width: 90%;
+      max-height: 90%;
+  }
+}
