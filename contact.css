@@ -63,6 +63,7 @@ header{
     grid-column: 2/3;
     grid-row: 3/4;
     font-size: 3rem;
+    padding-left: 1rem;
 }
 img{
     max-width: 100%;
