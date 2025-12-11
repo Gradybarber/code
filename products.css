@@ -48,6 +48,7 @@ header{
     grid-row: 2/4;
     padding: 3rem;
     margin: 3rem;
+    line-height: 2rem;
 }
 img{
     max-width: 60%;
