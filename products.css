@@ -48,6 +48,7 @@ header{
     grid-row: 2/4;
     padding: 3rem;
     margin: 3rem;
+    background-color: #f2f3f4;
 }
 img{
     max-width: 60%;
@@ -60,6 +61,7 @@ div{
     padding: 3rem;
     margin: 3rem;
     object-fit: fill;
+    background-color: #f2f3f4;
 }
 .bold{
     align-items: center;
